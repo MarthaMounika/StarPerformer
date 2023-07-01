@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "star-performer-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/starPerformer/StarPerformerAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/starPerformer/StarPerformerAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StarPerformerAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/starPerformer/loc/{locale}.js"
+  }
+}
